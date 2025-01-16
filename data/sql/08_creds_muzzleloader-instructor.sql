@@ -1,0 +1,1 @@
+INSERT INTO credentials (expires, volunteer, certification) VALUES('6/30/2024', (SELECT id FROM volunteers WHERE email = 'kohnkejames@troop941.org'), (SELECT id FROM certifications WHERE certification = 'Muzzleloading Instructor'));

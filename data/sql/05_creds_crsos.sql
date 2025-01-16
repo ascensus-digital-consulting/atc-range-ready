@@ -1,0 +1,5 @@
+INSERT INTO credentials (expires, volunteer, certification) VALUES('6/30/2024', (SELECT id FROM volunteers WHERE email = 'kohnkejames@troop941.org'), (SELECT id FROM certifications WHERE certification = 'Chief Range Safety Officer'));
+INSERT INTO credentials (expires, volunteer, certification) VALUES('7/31/2025', (SELECT id FROM volunteers WHERE email = 'claytoncarrolltroop998@gmail.com'), (SELECT id FROM certifications WHERE certification = 'Chief Range Safety Officer'));
+INSERT INTO credentials (expires, volunteer, certification) VALUES('9/30/2025', (SELECT id FROM volunteers WHERE email = 'planesafe@aol.com'), (SELECT id FROM certifications WHERE certification = 'Chief Range Safety Officer'));
+INSERT INTO credentials (expires, volunteer, certification) VALUES('2/28/2026', (SELECT id FROM volunteers WHERE email = '7a5126@gmail.com'), (SELECT id FROM certifications WHERE certification = 'Chief Range Safety Officer'));
+INSERT INTO credentials (expires, volunteer, certification) VALUES('3/31/2026', (SELECT id FROM volunteers WHERE email = 'dwald@sonic.net'), (SELECT id FROM certifications WHERE certification = 'Chief Range Safety Officer'));
