@@ -1,3 +1,8 @@
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+-- SHOTGUN INSTRUCTOR CREDENTIALS 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
 INSERT INTO credentials (expires, volunteer, certification) VALUES('10/31/2023', (SELECT id FROM volunteers WHERE email = 'glennjo2@gmail.com'), (SELECT id FROM certifications WHERE certification = 'Shotgun Instructor'));
 INSERT INTO credentials (expires, volunteer, certification) VALUES('4/30/2024', (SELECT id FROM volunteers WHERE email = 'mattshargel@gmail.com'), (SELECT id FROM certifications WHERE certification = 'Shotgun Instructor'));
 INSERT INTO credentials (expires, volunteer, certification) VALUES('6/30/2024', (SELECT id FROM volunteers WHERE email = 'kohnkejames@troop941.org'), (SELECT id FROM certifications WHERE certification = 'Shotgun Instructor'));

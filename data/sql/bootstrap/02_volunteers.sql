@@ -1,4 +1,8 @@
-
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+-- VOLUNTEERS 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
 INSERT INTO volunteers (lastname, firstname, email, phonenumber) VALUES ('Abreu','Jeff','jcabreu@gmail.com','');
 INSERT INTO volunteers (lastname, firstname, email, phonenumber) VALUES ('Abreu','Lydia','lydsarah@Hotmail.com','');
 INSERT INTO volunteers (lastname, firstname, email, phonenumber) VALUES ('Adam','Roy','n6fun@pacbell.net','');
@@ -112,15 +116,15 @@ INSERT INTO volunteers (lastname, firstname, email, phonenumber) VALUES ('Yorg',
 INSERT INTO volunteers (lastname, firstname, email, phonenumber) VALUES ('Yu','Charlie','charlie.yu@gmail.com','');
 INSERT INTO volunteers (lastname, firstname, email, phonenumber) VALUES ('Zee','Alan','alan@alanzee.com','415 254 1802');
 
-UPDATE volunteers SET nraid = '193831423' WHERE email = 'djfontainecrew357@gmail.com'
-UPDATE volunteers SET nraid = '206141564' WHERE email = 'ranlinsch@gmail.com'
-UPDATE volunteers SET nraid = '210103014' WHERE email = 'scouting@darkfamily.us'
-UPDATE volunteers SET nraid = '216120485' WHERE email = 'Willkhuber@gmail.com'
-UPDATE volunteers SET nraid = '225793177' WHERE email = 'claytoncarrolltroop998@gmail.com'
-UPDATE volunteers SET nraid = '226229163' WHERE email = 'cornochriste@hotmail.com'
-UPDATE volunteers SET nraid = '233478116' WHERE email = 'dwald@sonic.net'
-UPDATE volunteers SET nraid = '237799628' WHERE email = 'larry.woods8244@sbcglobal.net'
-UPDATE volunteers SET nraid = '263970311' WHERE email = 'mjames_79@yahoo.com'
-UPDATE volunteers SET nraid = '101000165871420' WHERE email = 'ckdelaney.pack997@comcast.net'
-UPDATE volunteers SET nraid = '101000209873896' WHERE email = 'shane.duan@gmail.com'
-UPDATE volunteers SET nraid = '101000209873937' WHERE email = 'kathryncrandell@gmail.com'
+UPDATE volunteers SET nraid = '193831423' WHERE email = 'djfontainecrew357@gmail.com';
+UPDATE volunteers SET nraid = '206141564' WHERE email = 'ranlinsch@gmail.com';
+UPDATE volunteers SET nraid = '210103014' WHERE email = 'scouting@darkfamily.us';
+UPDATE volunteers SET nraid = '216120485' WHERE email = 'Willkhuber@gmail.com';
+UPDATE volunteers SET nraid = '225793177' WHERE email = 'claytoncarrolltroop998@gmail.com';
+UPDATE volunteers SET nraid = '226229163' WHERE email = 'cornochriste@hotmail.com';
+UPDATE volunteers SET nraid = '233478116' WHERE email = 'dwald@sonic.net';
+UPDATE volunteers SET nraid = '237799628' WHERE email = 'larry.woods8244@sbcglobal.net';
+UPDATE volunteers SET nraid = '263970311' WHERE email = 'mjames_79@yahoo.com';
+UPDATE volunteers SET nraid = '101000165871420' WHERE email = 'ckdelaney.pack997@comcast.net';
+UPDATE volunteers SET nraid = '101000209873896' WHERE email = 'shane.duan@gmail.com';
+UPDATE volunteers SET nraid = '101000209873937' WHERE email = 'kathryncrandell@gmail.com';

@@ -1,3 +1,8 @@
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+-- CRSO CREDENTIALS 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
 INSERT INTO credentials (expires, volunteer, certification) VALUES('6/30/2024', (SELECT id FROM volunteers WHERE email = 'kohnkejames@troop941.org'), (SELECT id FROM certifications WHERE certification = 'Chief Range Safety Officer'));
 INSERT INTO credentials (expires, volunteer, certification) VALUES('7/31/2025', (SELECT id FROM volunteers WHERE email = 'claytoncarrolltroop998@gmail.com'), (SELECT id FROM certifications WHERE certification = 'Chief Range Safety Officer'));
 INSERT INTO credentials (expires, volunteer, certification) VALUES('9/30/2025', (SELECT id FROM volunteers WHERE email = 'planesafe@aol.com'), (SELECT id FROM certifications WHERE certification = 'Chief Range Safety Officer'));

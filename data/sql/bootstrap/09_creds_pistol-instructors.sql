@@ -1,3 +1,8 @@
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+-- PISTOL INSTRUCTOR CREDENTIALS 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
 INSERT INTO credentials (expires, volunteer, certification) VALUES('6/30/2024', (SELECT id FROM volunteers WHERE email = 'kohnkejames@troop941.org'), (SELECT id FROM certifications WHERE certification = 'Pistol Instructor'));
 INSERT INTO credentials (expires, volunteer, certification) VALUES('10/31/2024', (SELECT id FROM volunteers WHERE email = 'djfontainecrew357@gmail.com'), (SELECT id FROM certifications WHERE certification = 'Pistol Instructor'));
 INSERT INTO credentials (expires, volunteer, certification) VALUES('10/31/2024', (SELECT id FROM volunteers WHERE email = 'Pswiatko@yahoo.com'), (SELECT id FROM certifications WHERE certification = 'Pistol Instructor'));
