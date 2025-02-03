@@ -1,0 +1,52 @@
+// lambda/api-handler.js
+exports.handler = async (event) => {
+  try {
+    // The route can be identified by event.requestContext.http.path
+    // or by routeKey in the new HTTP API.
+    // If you used "path: '/summary'" in your route definition, you can
+    // check the path or routeKey to decide logic.
+
+    const path = event.requestContext.http.path; // e.g. '/summary' or '/active/abc123'
+    let response;
+
+    if (path.startsWith('/summary')) {
+      response = { message: 'Summary data' };
+    } else if (path.startsWith('/active/')) {
+      const certId = path.split('/')[2]; // after /active/
+      response = { message: `Active cert for id: ${certId}` };
+    } else if (path.startsWith('/expired/')) {
+      const certId = path.split('/')[2];
+      response = { message: `Expired cert for id: ${certId}` };
+    } else if (path.startsWith('/expiring-soon/')) {
+      const timespan = path.split('/')[2];
+      response = { message: `Certs expiring in next ${timespan} days` };
+    } else {
+      // fallback or 404
+      return {
+        statusCode: 404,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ error: 'Not found' }),
+      };
+    }
+
+    // Here, you’d connect to Aurora (using eg: pg or sequelize library)
+    // and return data from queries. Example:
+    // const client = new Client({ ... } );
+    // await client.connect();
+    // const dbResult = await client.query('SELECT ...');
+    // ...
+
+    return {
+      statusCode: 200,
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(response),
+    };
+  } catch (error) {
+    console.error(error);
+    return {
+      statusCode: 500,
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ error: error.message }),
+    };
+  }
+};

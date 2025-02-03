@@ -1,0 +1,10 @@
+{
+  "hosted-zone:account=030460844096:domainName=targetsports.help:region=us-west-1": {
+    "Id": "/hostedzone/Z04032252DKA9J2GC73VX",
+    "Name": "targetsports.help."
+  },
+  "availability-zones:account=030460844096:region=us-west-1": [
+    "us-west-1a",
+    "us-west-1c"
+  ]
+}

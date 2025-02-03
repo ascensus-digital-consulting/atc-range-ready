@@ -1,5 +1,5 @@
 {
-  "app": "node infra/bin/infra.js",
+  "app": "node infra/bin/range-ready.js",
   "watch": {
     "include": ["**"],
     "exclude": [

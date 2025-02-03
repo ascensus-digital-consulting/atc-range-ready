@@ -1,0 +1,702 @@
+{
+  "Resources": {
+    "RangeReadySiteCertB8D10BB4": {
+      "Type": "AWS::CertificateManager::Certificate",
+      "Properties": {
+        "DomainName": "targetsports.help",
+        "DomainValidationOptions": [
+          {
+            "DomainName": "targetsports.help",
+            "ValidationDomain": "targetsports.help"
+          }
+        ],
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadySiteCert"
+          }
+        ],
+        "ValidationMethod": "EMAIL"
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadySiteCert/Resource"
+      }
+    },
+    "RangeReadyVpc7D3E1EE5": {
+      "Type": "AWS::EC2::VPC",
+      "Properties": {
+        "CidrBlock": "10.0.0.0/16",
+        "EnableDnsHostnames": true,
+        "EnableDnsSupport": true,
+        "InstanceTenancy": "default",
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc"
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/Resource"
+      }
+    },
+    "RangeReadyVpcRangeReadyPublicSubnetSubnet1Subnet0559FBB2": {
+      "Type": "AWS::EC2::Subnet",
+      "Properties": {
+        "AvailabilityZone": "us-west-1a",
+        "CidrBlock": "10.0.0.0/18",
+        "MapPublicIpOnLaunch": true,
+        "Tags": [
+          {
+            "Key": "aws-cdk:subnet-name",
+            "Value": "RangeReadyPublicSubnet"
+          },
+          {
+            "Key": "aws-cdk:subnet-type",
+            "Value": "Public"
+          },
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet1"
+          }
+        ],
+        "VpcId": {
+          "Ref": "RangeReadyVpc7D3E1EE5"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet1/Subnet"
+      }
+    },
+    "RangeReadyVpcRangeReadyPublicSubnetSubnet1RouteTableD2C25BA4": {
+      "Type": "AWS::EC2::RouteTable",
+      "Properties": {
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet1"
+          }
+        ],
+        "VpcId": {
+          "Ref": "RangeReadyVpc7D3E1EE5"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet1/RouteTable"
+      }
+    },
+    "RangeReadyVpcRangeReadyPublicSubnetSubnet1RouteTableAssociation15134744": {
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+      "Properties": {
+        "RouteTableId": {
+          "Ref": "RangeReadyVpcRangeReadyPublicSubnetSubnet1RouteTableD2C25BA4"
+        },
+        "SubnetId": {
+          "Ref": "RangeReadyVpcRangeReadyPublicSubnetSubnet1Subnet0559FBB2"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet1/RouteTableAssociation"
+      }
+    },
+    "RangeReadyVpcRangeReadyPublicSubnetSubnet1DefaultRoute951B054B": {
+      "Type": "AWS::EC2::Route",
+      "Properties": {
+        "DestinationCidrBlock": "0.0.0.0/0",
+        "GatewayId": {
+          "Ref": "RangeReadyVpcIGW51F2212E"
+        },
+        "RouteTableId": {
+          "Ref": "RangeReadyVpcRangeReadyPublicSubnetSubnet1RouteTableD2C25BA4"
+        }
+      },
+      "DependsOn": [
+        "RangeReadyVpcVPCGW8C6CEA4C"
+      ],
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet1/DefaultRoute"
+      }
+    },
+    "RangeReadyVpcRangeReadyPublicSubnetSubnet1EIPF1E016C4": {
+      "Type": "AWS::EC2::EIP",
+      "Properties": {
+        "Domain": "vpc",
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet1"
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet1/EIP"
+      }
+    },
+    "RangeReadyVpcRangeReadyPublicSubnetSubnet1NATGateway4B93489D": {
+      "Type": "AWS::EC2::NatGateway",
+      "Properties": {
+        "AllocationId": {
+          "Fn::GetAtt": [
+            "RangeReadyVpcRangeReadyPublicSubnetSubnet1EIPF1E016C4",
+            "AllocationId"
+          ]
+        },
+        "SubnetId": {
+          "Ref": "RangeReadyVpcRangeReadyPublicSubnetSubnet1Subnet0559FBB2"
+        },
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet1"
+          }
+        ]
+      },
+      "DependsOn": [
+        "RangeReadyVpcRangeReadyPublicSubnetSubnet1DefaultRoute951B054B",
+        "RangeReadyVpcRangeReadyPublicSubnetSubnet1RouteTableAssociation15134744"
+      ],
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet1/NATGateway"
+      }
+    },
+    "RangeReadyVpcRangeReadyPublicSubnetSubnet2Subnet949B4D97": {
+      "Type": "AWS::EC2::Subnet",
+      "Properties": {
+        "AvailabilityZone": "us-west-1c",
+        "CidrBlock": "10.0.64.0/18",
+        "MapPublicIpOnLaunch": true,
+        "Tags": [
+          {
+            "Key": "aws-cdk:subnet-name",
+            "Value": "RangeReadyPublicSubnet"
+          },
+          {
+            "Key": "aws-cdk:subnet-type",
+            "Value": "Public"
+          },
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet2"
+          }
+        ],
+        "VpcId": {
+          "Ref": "RangeReadyVpc7D3E1EE5"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet2/Subnet"
+      }
+    },
+    "RangeReadyVpcRangeReadyPublicSubnetSubnet2RouteTableD4AF4E23": {
+      "Type": "AWS::EC2::RouteTable",
+      "Properties": {
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet2"
+          }
+        ],
+        "VpcId": {
+          "Ref": "RangeReadyVpc7D3E1EE5"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet2/RouteTable"
+      }
+    },
+    "RangeReadyVpcRangeReadyPublicSubnetSubnet2RouteTableAssociation1150B6B8": {
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+      "Properties": {
+        "RouteTableId": {
+          "Ref": "RangeReadyVpcRangeReadyPublicSubnetSubnet2RouteTableD4AF4E23"
+        },
+        "SubnetId": {
+          "Ref": "RangeReadyVpcRangeReadyPublicSubnetSubnet2Subnet949B4D97"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet2/RouteTableAssociation"
+      }
+    },
+    "RangeReadyVpcRangeReadyPublicSubnetSubnet2DefaultRouteCDC5B70E": {
+      "Type": "AWS::EC2::Route",
+      "Properties": {
+        "DestinationCidrBlock": "0.0.0.0/0",
+        "GatewayId": {
+          "Ref": "RangeReadyVpcIGW51F2212E"
+        },
+        "RouteTableId": {
+          "Ref": "RangeReadyVpcRangeReadyPublicSubnetSubnet2RouteTableD4AF4E23"
+        }
+      },
+      "DependsOn": [
+        "RangeReadyVpcVPCGW8C6CEA4C"
+      ],
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPublicSubnetSubnet2/DefaultRoute"
+      }
+    },
+    "RangeReadyVpcRangeReadyPrivateSubnetSubnet1Subnet651DBCAE": {
+      "Type": "AWS::EC2::Subnet",
+      "Properties": {
+        "AvailabilityZone": "us-west-1a",
+        "CidrBlock": "10.0.128.0/18",
+        "MapPublicIpOnLaunch": false,
+        "Tags": [
+          {
+            "Key": "aws-cdk:subnet-name",
+            "Value": "RangeReadyPrivateSubnet"
+          },
+          {
+            "Key": "aws-cdk:subnet-type",
+            "Value": "Private"
+          },
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet1"
+          }
+        ],
+        "VpcId": {
+          "Ref": "RangeReadyVpc7D3E1EE5"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet1/Subnet"
+      }
+    },
+    "RangeReadyVpcRangeReadyPrivateSubnetSubnet1RouteTable5665EF34": {
+      "Type": "AWS::EC2::RouteTable",
+      "Properties": {
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet1"
+          }
+        ],
+        "VpcId": {
+          "Ref": "RangeReadyVpc7D3E1EE5"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet1/RouteTable"
+      }
+    },
+    "RangeReadyVpcRangeReadyPrivateSubnetSubnet1RouteTableAssociation4FC72D16": {
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+      "Properties": {
+        "RouteTableId": {
+          "Ref": "RangeReadyVpcRangeReadyPrivateSubnetSubnet1RouteTable5665EF34"
+        },
+        "SubnetId": {
+          "Ref": "RangeReadyVpcRangeReadyPrivateSubnetSubnet1Subnet651DBCAE"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet1/RouteTableAssociation"
+      }
+    },
+    "RangeReadyVpcRangeReadyPrivateSubnetSubnet1DefaultRouteA2C51AF2": {
+      "Type": "AWS::EC2::Route",
+      "Properties": {
+        "DestinationCidrBlock": "0.0.0.0/0",
+        "NatGatewayId": {
+          "Ref": "RangeReadyVpcRangeReadyPublicSubnetSubnet1NATGateway4B93489D"
+        },
+        "RouteTableId": {
+          "Ref": "RangeReadyVpcRangeReadyPrivateSubnetSubnet1RouteTable5665EF34"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet1/DefaultRoute"
+      }
+    },
+    "RangeReadyVpcRangeReadyPrivateSubnetSubnet2Subnet346DBB26": {
+      "Type": "AWS::EC2::Subnet",
+      "Properties": {
+        "AvailabilityZone": "us-west-1c",
+        "CidrBlock": "10.0.192.0/18",
+        "MapPublicIpOnLaunch": false,
+        "Tags": [
+          {
+            "Key": "aws-cdk:subnet-name",
+            "Value": "RangeReadyPrivateSubnet"
+          },
+          {
+            "Key": "aws-cdk:subnet-type",
+            "Value": "Private"
+          },
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet2"
+          }
+        ],
+        "VpcId": {
+          "Ref": "RangeReadyVpc7D3E1EE5"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet2/Subnet"
+      }
+    },
+    "RangeReadyVpcRangeReadyPrivateSubnetSubnet2RouteTable96BBBF48": {
+      "Type": "AWS::EC2::RouteTable",
+      "Properties": {
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet2"
+          }
+        ],
+        "VpcId": {
+          "Ref": "RangeReadyVpc7D3E1EE5"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet2/RouteTable"
+      }
+    },
+    "RangeReadyVpcRangeReadyPrivateSubnetSubnet2RouteTableAssociation56FACF11": {
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+      "Properties": {
+        "RouteTableId": {
+          "Ref": "RangeReadyVpcRangeReadyPrivateSubnetSubnet2RouteTable96BBBF48"
+        },
+        "SubnetId": {
+          "Ref": "RangeReadyVpcRangeReadyPrivateSubnetSubnet2Subnet346DBB26"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet2/RouteTableAssociation"
+      }
+    },
+    "RangeReadyVpcRangeReadyPrivateSubnetSubnet2DefaultRoute93D46083": {
+      "Type": "AWS::EC2::Route",
+      "Properties": {
+        "DestinationCidrBlock": "0.0.0.0/0",
+        "NatGatewayId": {
+          "Ref": "RangeReadyVpcRangeReadyPublicSubnetSubnet1NATGateway4B93489D"
+        },
+        "RouteTableId": {
+          "Ref": "RangeReadyVpcRangeReadyPrivateSubnetSubnet2RouteTable96BBBF48"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RangeReadyPrivateSubnetSubnet2/DefaultRoute"
+      }
+    },
+    "RangeReadyVpcIGW51F2212E": {
+      "Type": "AWS::EC2::InternetGateway",
+      "Properties": {
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "RangeReadyStack/RangeReadyVpc"
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/IGW"
+      }
+    },
+    "RangeReadyVpcVPCGW8C6CEA4C": {
+      "Type": "AWS::EC2::VPCGatewayAttachment",
+      "Properties": {
+        "InternetGatewayId": {
+          "Ref": "RangeReadyVpcIGW51F2212E"
+        },
+        "VpcId": {
+          "Ref": "RangeReadyVpc7D3E1EE5"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/VPCGW"
+      }
+    },
+    "RangeReadyVpcRestrictDefaultSecurityGroupCustomResource603C05AD": {
+      "Type": "Custom::VpcRestrictDefaultSG",
+      "Properties": {
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "CustomVpcRestrictDefaultSGCustomResourceProviderHandlerDC833E5E",
+            "Arn"
+          ]
+        },
+        "DefaultSecurityGroupId": {
+          "Fn::GetAtt": [
+            "RangeReadyVpc7D3E1EE5",
+            "DefaultSecurityGroup"
+          ]
+        },
+        "Account": "030460844096"
+      },
+      "UpdateReplacePolicy": "Delete",
+      "DeletionPolicy": "Delete",
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyVpc/RestrictDefaultSecurityGroupCustomResource/Default"
+      }
+    },
+    "CustomVpcRestrictDefaultSGCustomResourceProviderRole26592FE0": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ]
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Sub": "arn:${AWS::Partition}:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+          }
+        ],
+        "Policies": [
+          {
+            "PolicyName": "Inline",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "ec2:AuthorizeSecurityGroupIngress",
+                    "ec2:AuthorizeSecurityGroupEgress",
+                    "ec2:RevokeSecurityGroupIngress",
+                    "ec2:RevokeSecurityGroupEgress"
+                  ],
+                  "Resource": [
+                    {
+                      "Fn::Join": [
+                        "",
+                        [
+                          "arn:aws:ec2:us-west-1:030460844096:security-group/",
+                          {
+                            "Fn::GetAtt": [
+                              "RangeReadyVpc7D3E1EE5",
+                              "DefaultSecurityGroup"
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/Custom::VpcRestrictDefaultSGCustomResourceProvider/Role"
+      }
+    },
+    "CustomVpcRestrictDefaultSGCustomResourceProviderHandlerDC833E5E": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": "cdk-hnb659fds-assets-030460844096-us-west-1",
+          "S3Key": "7fa1e366ee8a9ded01fc355f704cff92bfd179574e6f9cfee800a3541df1b200.zip"
+        },
+        "Timeout": 900,
+        "MemorySize": 128,
+        "Handler": "__entrypoint__.handler",
+        "Role": {
+          "Fn::GetAtt": [
+            "CustomVpcRestrictDefaultSGCustomResourceProviderRole26592FE0",
+            "Arn"
+          ]
+        },
+        "Runtime": "nodejs20.x",
+        "Description": "Lambda function for removing all inbound/outbound rules from the VPC default security group"
+      },
+      "DependsOn": [
+        "CustomVpcRestrictDefaultSGCustomResourceProviderRole26592FE0"
+      ],
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/Custom::VpcRestrictDefaultSGCustomResourceProvider/Handler",
+        "aws:asset:path": "asset.7fa1e366ee8a9ded01fc355f704cff92bfd179574e6f9cfee800a3541df1b200",
+        "aws:asset:property": "Code"
+      }
+    },
+    "RangeReadyDbSecret6D9C583F": {
+      "Type": "AWS::SecretsManager::Secret",
+      "Properties": {
+        "Description": {
+          "Fn::Join": [
+            "",
+            [
+              "Generated by the CDK for stack: ",
+              {
+                "Ref": "AWS::StackName"
+              }
+            ]
+          ]
+        },
+        "GenerateSecretString": {
+          "ExcludeCharacters": " %+~`#$&*()|[]{}:;<>?!'/@\"\\",
+          "GenerateStringKey": "password",
+          "PasswordLength": 30,
+          "SecretStringTemplate": "{\"username\":\"postgres\"}"
+        }
+      },
+      "UpdateReplacePolicy": "Delete",
+      "DeletionPolicy": "Delete",
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyDbSecret/Resource"
+      }
+    },
+    "RangeReadyDbSecretAttachmentDB6971FC": {
+      "Type": "AWS::SecretsManager::SecretTargetAttachment",
+      "Properties": {
+        "SecretId": {
+          "Ref": "RangeReadyDbSecret6D9C583F"
+        },
+        "TargetId": {
+          "Ref": "RangeReadyDbCluster6BAE1D75"
+        },
+        "TargetType": "AWS::RDS::DBCluster"
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyDbSecret/Attachment/Resource"
+      }
+    },
+    "RangeReadyDbClusterSubnets3FE655BD": {
+      "Type": "AWS::RDS::DBSubnetGroup",
+      "Properties": {
+        "DBSubnetGroupDescription": "Subnets for RangeReadyDbCluster database",
+        "SubnetIds": [
+          {
+            "Ref": "RangeReadyVpcRangeReadyPrivateSubnetSubnet1Subnet651DBCAE"
+          },
+          {
+            "Ref": "RangeReadyVpcRangeReadyPrivateSubnetSubnet2Subnet346DBB26"
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyDbCluster/Subnets/Default"
+      }
+    },
+    "RangeReadyDbClusterSecurityGroupD1F31A2D": {
+      "Type": "AWS::EC2::SecurityGroup",
+      "Properties": {
+        "GroupDescription": "RDS security group",
+        "SecurityGroupEgress": [
+          {
+            "CidrIp": "0.0.0.0/0",
+            "Description": "Allow all outbound traffic by default",
+            "IpProtocol": "-1"
+          }
+        ],
+        "VpcId": {
+          "Ref": "RangeReadyVpc7D3E1EE5"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyDbCluster/SecurityGroup/Resource"
+      }
+    },
+    "RangeReadyDbCluster6BAE1D75": {
+      "Type": "AWS::RDS::DBCluster",
+      "Properties": {
+        "CopyTagsToSnapshot": true,
+        "DBClusterParameterGroupName": "default.aurora-postgresql16",
+        "DBSubnetGroupName": {
+          "Ref": "RangeReadyDbClusterSubnets3FE655BD"
+        },
+        "DatabaseName": "mydatabase",
+        "EnableHttpEndpoint": true,
+        "Engine": "aurora-postgresql",
+        "EngineVersion": "16.6",
+        "MasterUserPassword": {
+          "Fn::Join": [
+            "",
+            [
+              "{{resolve:secretsmanager:",
+              {
+                "Ref": "RangeReadyDbSecret6D9C583F"
+              },
+              ":SecretString:password::}}"
+            ]
+          ]
+        },
+        "MasterUsername": {
+          "Fn::Join": [
+            "",
+            [
+              "{{resolve:secretsmanager:",
+              {
+                "Ref": "RangeReadyDbSecret6D9C583F"
+              },
+              ":SecretString:username::}}"
+            ]
+          ]
+        },
+        "Port": 5432,
+        "ServerlessV2ScalingConfiguration": {
+          "MaxCapacity": 1,
+          "MinCapacity": 0.5
+        },
+        "StorageType": "aurora",
+        "VpcSecurityGroupIds": [
+          {
+            "Fn::GetAtt": [
+              "RangeReadyDbClusterSecurityGroupD1F31A2D",
+              "GroupId"
+            ]
+          }
+        ]
+      },
+      "UpdateReplacePolicy": "Delete",
+      "DeletionPolicy": "Delete",
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyDbCluster/Resource"
+      }
+    },
+    "RangeReadyDbClusterwriter94F9646D": {
+      "Type": "AWS::RDS::DBInstance",
+      "Properties": {
+        "AutoMinorVersionUpgrade": true,
+        "DBClusterIdentifier": {
+          "Ref": "RangeReadyDbCluster6BAE1D75"
+        },
+        "DBInstanceClass": "db.serverless",
+        "Engine": "aurora-postgresql",
+        "PromotionTier": 0,
+        "PubliclyAccessible": false
+      },
+      "DependsOn": [
+        "RangeReadyVpcRangeReadyPrivateSubnetSubnet1DefaultRouteA2C51AF2",
+        "RangeReadyVpcRangeReadyPrivateSubnetSubnet1RouteTableAssociation4FC72D16",
+        "RangeReadyVpcRangeReadyPrivateSubnetSubnet2DefaultRoute93D46083",
+        "RangeReadyVpcRangeReadyPrivateSubnetSubnet2RouteTableAssociation56FACF11"
+      ],
+      "UpdateReplacePolicy": "Delete",
+      "DeletionPolicy": "Delete",
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/RangeReadyDbCluster/writer/Resource"
+      }
+    },
+    "CDKMetadata": {
+      "Type": "AWS::CDK::Metadata",
+      "Properties": {
+        "Analytics": "v2:deflate64:H4sIAAAAAAAA/2VRTW/CMAz9LdxNNqpJO0OZUC9TRRHXyU1NCbQJih0Qqvrfp7ajZdvp+X3ItuxILd7f1GKGN57r4jyvTK6aTFCfYUvsgtcEeOOvRpMXczAahWq0WJJXTTxpEB/sE22BdKSa/UV3xj6NIQ15ZXQWckvSaVO1dUFoh3lFkz5pS2anDYpxdgx3xUeSdvCJskGhG94h9eaKQlPjxAp5S2Ng2OSHLUVQH2uyAhnp4I3cN96FS7/Ds9CCL1g1axTMkSkj7UngQeMqsJCHYerYYb36JzySPUksC1pNLXDfj6eb9uO7EQPs0JckT9uOgb9O20IcWFw9Pq6711j/slLvrqYgv0ImWDKTZIKlsWUL1hWkTvxyjSK1iNTr7MTGzH2wYmpS2wG/AbaiBUU3AgAA"
+      },
+      "Metadata": {
+        "aws:cdk:path": "RangeReadyStack/CDKMetadata/Default"
+      }
+    }
+  },
+  "Parameters": {
+    "BootstrapVersion": {
+      "Type": "AWS::SSM::Parameter::Value<String>",
+      "Default": "/cdk-bootstrap/hnb659fds/version",
+      "Description": "Version of the CDK Bootstrap resources in this environment, automatically retrieved from SSM Parameter Store. [cdk:skip]"
+    }
+  }
+}
