@@ -24,10 +24,10 @@ document.addEventListener('DOMContentLoaded', async (event) => {
     nameField.innerHTML = name;
     const nraidField = document.createElement('div');
     nraidField.classList.add('field');
-    nraidField.innerHTML = nraid;
     // nraid == '-'
     //   ? nraid
     //   : `<a href="https://www.nrainstructors.org/InstructorAdmin/Verify.aspx" target="_blank">${nraid}</a>`;
+    nraidField.innerHTML = nraid;
     const certificationField = document.createElement('div');
     certificationField.classList.add('field');
     certificationField.innerHTML = certification;
