@@ -166,7 +166,7 @@ class WebAppStack extends Stack {
       certificate: Certificate.fromCertificateArn(
         this,
         'ADCCertificateWeb',
-        'arn:aws:acm:us-east-1:030460844096:certificate/43b0f99a-a402-4ff1-916c-687c79bcef1d' // Replace with your certificate ARN
+        'arn:aws:acm:us-east-1:030460844096:certificate/1cafae90-70c0-4626-afd9-bdd25d6ad418'
       ),
     };
     return props;
@@ -216,16 +216,16 @@ class WebAppStack extends Stack {
       resourceNames: {
         aliasRecord: 'RangeReadyAliasRecordName',
         bucket: 'RangeReadyBucketName',
-        cachePolicy: 'RangeReadycachePolicyName',
-        deployment: 'RangeReadydeploymentName',
-        distribution: 'RangeReadydistributionName',
-        stack: 'RangeReadystackName',
-        viewerRequestHandler: 'RangeReadyviewerRequestHandlerName',
+        cachePolicy: 'RangeReadyCachePolicyName',
+        deployment: 'RangeReadyDeploymentName',
+        distribution: 'RangeReadyDistributionName',
+        stack: 'RangeReady',
+        viewerRequestHandler: 'RangeReadyViewerRequestHandlerName',
       },
-      domains: 'RangeReadydomains',
-      host: 'rr',
-      hostedZoneId: 'RangeReadyhostedZoneId',
-      zoneName: 'RangeReadyzoneName',
+      domains: 'rangeready.targetsports.help',
+      host: 'rangeready',
+      hostedZoneId: 'Z04032252DKA9J2GC73VX',
+      zoneName: 'targetsports.help',
     };
     WebAppStack.#validateContext(context);
     return context;
