@@ -1,40 +1,47 @@
 let emails = '';
 
 document.addEventListener('DOMContentLoaded', async (event) => {
-  const summaryResponse = await fetch(
-    'https://attop22rn8.execute-api.us-west-1.amazonaws.com/prod/summary'
+  const volunteerResponse = await fetch(
+    'https://rangeready.targetsports.help/api/volunteers'
   );
-  const summary = await summaryResponse.json(); //extract JSON from the http response
-  const summaryData = summary.data;
+  const volunteers = await volunteerResponse.json();
 
-  summaryData.forEach((record) => {
-    const cert = record[0].stringValue;
-    const unexp = record[1].longValue;
-    const exp = record[2].longValue;
-    const certId = record[3].longValue;
-
-    const certField = document.createElement('div');
-    certField.classList.add('field');
-    const link = document.createElement('a');
-    link.href = '#';
-    link.innerText = cert;
-    link.addEventListener('click', async () => {
-      await doStuff(certId);
-    });
-    certField.appendChild(link);
-    const unexpField = document.createElement('div');
-    unexpField.classList.add('field');
-    unexpField.innerHTML = unexp;
-    const expField = document.createElement('div');
-    expField.classList.add('field');
-    expField.classList.add('expired');
-    expField.innerHTML = exp;
-
+  volunteers.forEach((record) => {
+    const name = `${record.firstName} ${record.lastName}`;
+    const nameField = document.createElement('div');
+    nameField.innerHTML = name;
     const container = document.getElementById('summary-container');
-    container.appendChild(certField);
-    container.appendChild(unexpField);
-    container.appendChild(expField);
+    container.appendChild(nameField);
   });
+
+  // summaryData.forEach((record) => {
+  //   const cert = record[0].stringValue;
+  //   const unexp = record[1].longValue;
+  //   const exp = record[2].longValue;
+  //   const certId = record[3].longValue;
+
+  //   const certField = document.createElement('div');
+  //   certField.classList.add('field');
+  //   const link = document.createElement('a');
+  //   link.href = '#';
+  //   link.innerText = cert;
+  //   link.addEventListener('click', async () => {
+  //     await doStuff(certId);
+  //   });
+  //   certField.appendChild(link);
+  //   const unexpField = document.createElement('div');
+  //   unexpField.classList.add('field');
+  //   unexpField.innerHTML = unexp;
+  //   const expField = document.createElement('div');
+  //   expField.classList.add('field');
+  //   expField.classList.add('expired');
+  //   expField.innerHTML = exp;
+
+  //   const container = document.getElementById('summary-container');
+  //   container.appendChild(certField);
+  //   container.appendChild(unexpField);
+  //   container.appendChild(expField);
+  // });
 
   // const certificationsResponse = await fetch(
   //   'https://attop22rn8.execute-api.us-west-1.amazonaws.com/prod/certs'
