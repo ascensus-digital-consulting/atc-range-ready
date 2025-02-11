@@ -214,20 +214,18 @@ class WebAppStack extends Stack {
   static #configureContext(app) {
     const context = {
       resourceNames: {
-        aliasRecord: app.node.tryGetContext('aliasRecordName'),
-        bucket: app.node.tryGetContext('bucketName'),
-        cachePolicy: app.node.tryGetContext('cachePolicyName'),
-        deployment: app.node.tryGetContext('deploymentName'),
-        distribution: app.node.tryGetContext('distributionName'),
-        stack: app.node.tryGetContext('stackName'),
-        viewerRequestHandler: app.node.tryGetContext(
-          'viewerRequestHandlerName'
-        ),
+        aliasRecord: 'RangeReadyAliasRecordName',
+        bucket: 'RangeReadyBucketName',
+        cachePolicy: 'RangeReadycachePolicyName',
+        deployment: 'RangeReadydeploymentName',
+        distribution: 'RangeReadydistributionName',
+        stack: 'RangeReadystackName',
+        viewerRequestHandler: 'RangeReadyviewerRequestHandlerName',
       },
-      domains: app.node.tryGetContext('domains'),
-      host: app.node.tryGetContext('host') || '',
-      hostedZoneId: app.node.tryGetContext('hostedZoneId'),
-      zoneName: app.node.tryGetContext('zoneName'),
+      domains: 'RangeReadydomains',
+      host: 'rr',
+      hostedZoneId: 'RangeReadyhostedZoneId',
+      zoneName: 'RangeReadyzoneName',
     };
     WebAppStack.#validateContext(context);
     return context;
