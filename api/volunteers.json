@@ -4,8 +4,10 @@
     "firstName": "Jeff",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "jcabreu@gmail.com",
     "phone": null,
@@ -16,8 +18,10 @@
     "firstName": "Lydia",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "lydsarah@Hotmail.com",
     "phone": null,
@@ -28,8 +32,7 @@
     "firstName": "Roy",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "n6fun@pacbell.net",
     "phone": null,
@@ -40,8 +43,10 @@
     "firstName": "David",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "darktrooperd@comcast.net",
     "phone": null,
@@ -52,8 +57,10 @@
     "firstName": "Mario",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/6/2024",
-    "cubBbGunRangemasterCs32": "3/6/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/6/2024",
+      "bbGunRangemasterCs32": "3/6/2024"
+    },
     "usaArchery": null,
     "email": "mario.sloan.mit@gmail.com",
     "phone": null,
@@ -64,20 +71,19 @@
     "firstName": "Toby",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 187731664,
       "chiefRso": false,
-      "rso": "11/30/2024",
-      "rifleInstructor": "11/30/2024",
+      "rso": true,
+      "rifleInstructor": true,
       "shotgunInstructor": false,
-      "pistolInstructor": "11/30/2024",
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": "2/29/2032",
       "instructorExpiry": "11/30/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 187731664,
     "email": "baybolt@pacbell.net",
     "phone": null,
     "phoneAlternate": null
@@ -87,20 +93,19 @@
     "firstName": "Mike",
     "meritBadgeCounselor": ["rifleInstructor", "shotgunInstructor"],
     "nra": {
+      "nraId": 172051219,
       "chiefRso": false,
-      "rso": "6/30/2025",
-      "rifleInstructor": "6/30/2025",
-      "shotgunInstructor": "6/30/2025",
+      "rso": true,
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": "6/30/2029",
       "instructorExpiry": "6/30/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 172051219,
     "email": "sigepotter@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -110,8 +115,10 @@
     "firstName": "Jeanna",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": null
+    },
     "usaArchery": null,
     "email": "jeannamai8@gmail.com",
     "phone": null,
@@ -122,8 +129,7 @@
     "firstName": "Greg",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "white_redman@hotmail.com",
     "phone": null,
@@ -134,8 +140,7 @@
     "firstName": "Jacob",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "jacob781@hotmail.com",
     "phone": null,
@@ -146,8 +151,10 @@
     "firstName": "Michael",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "mtblack@berkeley.edu",
     "phone": null,
@@ -158,8 +165,10 @@
     "firstName": "Sean",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "seanhere@gmail.com",
     "phone": null,
@@ -170,20 +179,19 @@
     "firstName": "Clayton",
     "meritBadgeCounselor": [],
     "nra": {
-      "chiefRso": "7/31/2025",
+      "nraId": 225793177,
+      "chiefRso": true,
       "rso": false,
-      "rifleInstructor": "7/31/2025",
-      "shotgunInstructor": "7/31/2025",
-      "pistolInstructor": "7/31/2025",
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "7/31/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 225793177,
     "email": "claytoncarrolltroop998@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -193,20 +201,19 @@
     "firstName": "Brian",
     "meritBadgeCounselor": [],
     "nra": {
-      "chiefRso": "8/31/2023",
-      "rso": "8/31/2023",
-      "rifleInstructor": "8/31/2023",
-      "shotgunInstructor": "8/31/2023",
-      "pistolInstructor": "8/31/2023",
+      "nraId": 101000203699045,
+      "chiefRso": true,
+      "rso": true,
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "8/31/2023"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 101000203699045,
     "email": "friedmanb90@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -216,8 +223,10 @@
     "firstName": "Emma",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "10/1/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "10/1/2025"
+    },
     "usaArchery": null,
     "email": "castroemma@gmail.com",
     "phone": null,
@@ -228,8 +237,10 @@
     "firstName": "Ravi",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "ravi.cheema@gmail.com",
     "phone": null,
@@ -240,8 +251,10 @@
     "firstName": "Armen",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "acingoz246@gmail.com",
     "phone": null,
@@ -252,10 +265,12 @@
     "firstName": "Robert",
     "meritBadgeCounselor": ["archery"],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
-    "usaArcheryInstructor": "3/31/2025",
-    "usaArcheryInstructorLevel": 1,
+    "cubScouts": null,
+    "usaArchery": {
+      "instructor": true,
+      "expiry": "3/31/2025",
+      "level": 1
+    },
     "email": "waterstopdad@sbcglobal.net",
     "phone": null,
     "phoneAlternate": null
@@ -265,8 +280,9 @@
     "firstName": "Gary",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 226229163,
       "chiefRso": false,
-      "rso": "3/31/2025",
+      "rso": true,
       "rifleInstructor": false,
       "shotgunInstructor": false,
       "pistolInstructor": false,
@@ -275,11 +291,15 @@
       "memberExpiry": "4/30/2028",
       "instructorExpiry": "3/31/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "5/20/2023",
-    "usaArcheryInstructor": "5/8/2027",
-    "usaArcheryInstructorLevel": 2,
-    "nraId": 226229163,
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "5/20/2023"
+    },
+    "usaArchery": {
+      "instructor": true,
+      "expiry": "5/8/2027",
+      "level": 2
+    },
     "email": "cornochriste@hotmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -289,8 +309,9 @@
     "firstName": "Kathryn",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 101000209873937,
       "chiefRso": false,
-      "rso": "3/31/2025",
+      "rso": true,
       "rifleInstructor": false,
       "shotgunInstructor": false,
       "pistolInstructor": false,
@@ -299,11 +320,15 @@
       "memberExpiry": null,
       "instructorExpiry": "3/31/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "5/20/2023",
-    "usaArcheryInstructor": "5/8/2024",
-    "usaArcheryInstructorLevel": 1,
-    "nraId": 101000209873937,
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "5/20/2023"
+    },
+    "usaArchery": {
+      "instructor": true,
+      "expiry": "5/8/2024",
+      "level": 1
+    },
     "email": "kathryncrandell@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -313,9 +338,10 @@
     "firstName": "Erich",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 210103014,
       "chiefRso": false,
-      "rso": "1/31/2026",
-      "rifleInstructor": "1/31/2026",
+      "rso": true,
+      "rifleInstructor": true,
       "shotgunInstructor": false,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
@@ -323,10 +349,8 @@
       "memberExpiry": "2/28/2025",
       "instructorExpiry": "1/31/2026"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 210103014,
     "email": "scouting@darkfamily.us",
     "phone": null,
     "phoneAlternate": null
@@ -336,20 +360,19 @@
     "firstName": "Chuck",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 101000165871420,
       "chiefRso": false,
-      "rso": "12/31/2024",
-      "rifleInstructor": "12/31/2024",
-      "shotgunInstructor": "12/31/2024",
+      "rso": true,
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "12/31/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 101000165871420,
     "email": "ckdelaney.pack997@comcast.net",
     "phone": null,
     "phoneAlternate": null
@@ -358,21 +381,20 @@
     "lastName": "Dromlewicz",
     "firstName": "Kim",
     "meritBadgeCounselor": ["rifleInstructor"],
-    "nra": null,
-    "chiefRso": {
-      "rso": "1/31/2025",
-      "rifleInstructor": "1/31/2025",
-      "shotgunInstructor": "1/31/2025",
-      "pistolInstructor": "1/31/2025",
+    "nra": {
+      "nraId": 39542473,
+      "chiefRso": true,
+      "rso": true,
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": "Life",
       "instructorExpiry": "1/31/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 39542473,
     "email": "dromlewicz@yahoo.com",
     "phone": null,
     "phoneAlternate": "925 413 0116"
@@ -382,8 +404,9 @@
     "firstName": "Shane",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 101000209873896,
       "chiefRso": false,
-      "rso": "3/31/2025",
+      "rso": true,
       "rifleInstructor": false,
       "shotgunInstructor": false,
       "pistolInstructor": false,
@@ -392,11 +415,12 @@
       "memberExpiry": null,
       "instructorExpiry": "3/31/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
-    "usaArcheryInstructor": "11/19/2026",
-    "usaArcheryInstructorLevel": 1,
-    "nraId": 101000209873896,
+    "cubScouts": null,
+    "usaArchery": {
+      "instructor": true,
+      "expiry": "11/19/2026",
+      "level": 1
+    },
     "email": "shane.duan@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -406,20 +430,19 @@
     "firstName": "Wayne",
     "meritBadgeCounselor": ["rifleInstructor", "shotgunInstructor"],
     "nra": {
+      "nraId": 146439233,
       "chiefRso": false,
-      "rso": "6/30/2025",
-      "rifleInstructor": "6/30/2025",
-      "shotgunInstructor": "6/30/2025",
+      "rso": true,
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "6/30/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 146439233,
     "email": "waf@brunz.org",
     "phone": null,
     "phoneAlternate": null
@@ -429,8 +452,9 @@
     "firstName": "Joyce",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
-      "rso": "5/31/2024",
+      "rso": true,
       "rifleInstructor": false,
       "shotgunInstructor": false,
       "pistolInstructor": false,
@@ -439,8 +463,7 @@
       "memberExpiry": null,
       "instructorExpiry": "5/31/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "finkjoyce@troop941.org",
     "phone": null,
@@ -451,20 +474,19 @@
     "firstName": "Dave",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 193831423,
       "chiefRso": false,
-      "rso": "10/31/2024",
-      "rifleInstructor": "10/31/2024",
-      "shotgunInstructor": "10/31/2024",
-      "pistolInstructor": "10/31/2024",
+      "rso": true,
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "10/31/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 193831423,
     "email": "djfontainecrew357@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -474,20 +496,19 @@
     "firstName": "Peter",
     "meritBadgeCounselor": [],
     "nra": {
-      "chiefRso": "9/30/2025",
-      "rso": "9/30/2025",
-      "rifleInstructor": "9/30/2025",
-      "shotgunInstructor": "9/30/2025",
-      "pistolInstructor": "9/30/2025",
+      "nraId": 140506318,
+      "chiefRso": true,
+      "rso": true,
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": "9/30/2025",
       "memberExpiry": "Life",
       "instructorExpiry": "9/30/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 140506318,
     "email": "planesafe@aol.com",
     "phone": null,
     "phoneAlternate": null
@@ -497,8 +518,10 @@
     "firstName": "Edward",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "3/6/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": null
+    },
     "usaArchery": null,
     "email": "bsachester@gmail.com",
     "phone": null,
@@ -509,18 +532,18 @@
     "firstName": "Joe",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
-      "rso": "12/31/2025",
+      "rso": true,
       "rifleInstructor": false,
       "shotgunInstructor": false,
-      "pistolInstructor": "12/31/2025",
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "12/31/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "jgaray1@lenovo.com",
     "phone": null,
@@ -531,8 +554,10 @@
     "firstName": "Sean",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "rehabsean1978@gmail.com",
     "phone": null,
@@ -543,8 +568,9 @@
     "firstName": "Kirk",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
-      "rso": "4/30/2024",
+      "rso": true,
       "rifleInstructor": false,
       "shotgunInstructor": false,
       "pistolInstructor": false,
@@ -553,8 +579,7 @@
       "memberExpiry": null,
       "instructorExpiry": "4/30/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "Gottschalkkirk@troop941.org",
     "phone": null,
@@ -565,20 +590,19 @@
     "firstName": "Mike",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 41524404,
       "chiefRso": false,
-      "rso": "11/30/2024",
+      "rso": true,
       "rifleInstructor": false,
       "shotgunInstructor": false,
-      "pistolInstructor": "11/30/2024",
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": "Life",
       "instructorExpiry": "11/30/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 41524404,
     "email": "gunsgrant@aol.com",
     "phone": null,
     "phoneAlternate": null
@@ -588,8 +612,10 @@
     "firstName": "Tim",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "timgrow3@gmail.com",
     "phone": null,
@@ -600,8 +626,10 @@
     "firstName": "Mark",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "10/1/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "10/1/2025"
+    },
     "usaArchery": null,
     "email": "mark@halls.net",
     "phone": "925.672.6029",
@@ -612,8 +640,10 @@
     "firstName": "Megan",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "10/1/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "10/1/2025"
+    },
     "usaArchery": null,
     "email": "musicislife052314@gmail.com",
     "phone": "925.672.6029",
@@ -624,9 +654,10 @@
     "firstName": "Sheli",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
       "rso": false,
-      "rifleInstructor": "4/30/2026",
+      "rifleInstructor": true,
       "shotgunInstructor": false,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
@@ -634,8 +665,7 @@
       "memberExpiry": null,
       "instructorExpiry": "4/30/2026"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "coralacademyhomeschool@gmail.com",
     "phone": null,
@@ -646,9 +676,10 @@
     "firstName": "Mark",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 192369332,
       "chiefRso": false,
-      "rso": "5/31/2025",
-      "rifleInstructor": "5/31/2025",
+      "rso": true,
+      "rifleInstructor": true,
       "shotgunInstructor": false,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
@@ -656,10 +687,11 @@
       "memberExpiry": null,
       "instructorExpiry": "5/31/2025"
     },
-    "cubArcheryRangemasterCs31": "5/22/2025",
-    "cubBbGunRangemasterCs32": "5/22/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/22/2025",
+      "bbGunRangemasterCs32": "5/22/2025"
+    },
     "usaArchery": null,
-    "nraId": 192369332,
     "email": "markhovermale@comcast.net",
     "phone": "925.822.7896",
     "phoneAlternate": "925.822.7896"
@@ -669,10 +701,12 @@
     "firstName": "Diana",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
-    "usaArcheryInstructor": "4/18/2024",
-    "usaArcheryInstructorLevel": 2,
+    "cubScouts": null,
+    "usaArchery": {
+      "instructor": true,
+      "expiry": "4/18/2024",
+      "level": 2
+    },
     "email": "dianahu@kenthu.net",
     "phone": null,
     "phoneAlternate": null
@@ -682,8 +716,9 @@
     "firstName": "Joleen",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
-      "rso": "1/31/2026",
+      "rso": true,
       "rifleInstructor": false,
       "shotgunInstructor": false,
       "pistolInstructor": false,
@@ -692,8 +727,7 @@
       "memberExpiry": null,
       "instructorExpiry": "1/31/2026"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "joleenhuber@gmail.com",
     "phone": null,
@@ -704,20 +738,19 @@
     "firstName": "Will",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 216120485,
       "chiefRso": false,
-      "rso": "8/31/2025",
+      "rso": true,
       "rifleInstructor": false,
-      "shotgunInstructor": "8/31/2025",
+      "shotgunInstructor": true,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "8/31/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 216120485,
     "email": "Willkhuber@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -727,9 +760,10 @@
     "firstName": "Tat",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 180103210,
       "chiefRso": false,
-      "rso": "3/31/2025",
-      "rifleInstructor": "3/31/2025",
+      "rso": true,
+      "rifleInstructor": true,
       "shotgunInstructor": false,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
@@ -737,10 +771,8 @@
       "memberExpiry": null,
       "instructorExpiry": "3/31/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 180103210,
     "email": "tathuen@yahoo.com",
     "phone": null,
     "phoneAlternate": "tathuen@yahoo.com"
@@ -750,10 +782,11 @@
     "firstName": "Grant",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "2/19/2027",
-    "cubBbGunRangemasterCs32": null,
-    "usaArcheryInstructor": null,
-    "usaArcheryInstructorLevel": 1,
+    "cubScouts": {
+      "archeryRangemasterCs31": "2/19/2027",
+      "bbGunRangemasterCs32": null
+    },
+    "usaArchery": { "instructor": true, "expiry": null, "level": 1 },
     "email": "grookes@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -763,8 +796,7 @@
     "firstName": "Liz",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "mrs.lizhunt@gmail.com",
     "phone": null,
@@ -775,8 +807,10 @@
     "firstName": "Douglas",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "10/1/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "10/1/2025"
+    },
     "usaArchery": null,
     "email": "djacobse@umich.edu",
     "phone": "510.384.3049",
@@ -787,6 +821,7 @@
     "firstName": "Michael",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 263970311,
       "chiefRso": false,
       "rso": false,
       "rifleInstructor": false,
@@ -797,10 +832,11 @@
       "memberExpiry": "6/30/2028",
       "instructorExpiry": null
     },
-    "cubArcheryRangemasterCs31": "2/24/2028",
-    "cubBbGunRangemasterCs32": "2/24/2028",
+    "cubScouts": {
+      "archeryRangemasterCs31": "2/24/2028",
+      "bbGunRangemasterCs32": "2/24/2028"
+    },
     "usaArchery": null,
-    "nraId": 263970311,
     "email": "mjames_79@yahoo.com",
     "phone": null,
     "phoneAlternate": "510-825-4786"
@@ -810,20 +846,19 @@
     "firstName": "Dan",
     "meritBadgeCounselor": ["rifleInstructor"],
     "nra": {
-      "chiefRso": "2/28/2026",
+      "nraId": 180901478,
+      "chiefRso": true,
       "rso": false,
-      "rifleInstructor": "2/28/2026",
-      "shotgunInstructor": "2/28/2026",
-      "pistolInstructor": "2/28/2026",
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": "Life",
       "instructorExpiry": "2/28/2026"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 180901478,
     "email": "7a5126@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -833,20 +868,19 @@
     "firstName": "Jim",
     "meritBadgeCounselor": [],
     "nra": {
-      "chiefRso": "6/30/2024",
+      "nraId": 9093168,
+      "chiefRso": true,
       "rso": false,
-      "rifleInstructor": "6/30/2024",
-      "shotgunInstructor": "6/30/2024",
-      "pistolInstructor": "6/30/2024",
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": "6/30/2024",
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "6/30/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 9093168,
     "email": "kohnkejames@troop941.org",
     "phone": null,
     "phoneAlternate": null
@@ -856,8 +890,10 @@
     "firstName": "David",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "10/1/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "10/1/2025"
+    },
     "usaArchery": null,
     "email": "kids@thekubecks.com",
     "phone": "209.327.0655",
@@ -868,8 +904,10 @@
     "firstName": "Dave",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/17/2026",
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/17/2026",
+      "bbGunRangemasterCs32": null
+    },
     "usaArchery": null,
     "email": "kids@thekubecks.com",
     "phone": null,
@@ -880,8 +918,7 @@
     "firstName": "Greg",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "gkuhner@gmail.com",
     "phone": null,
@@ -892,8 +929,10 @@
     "firstName": "Tiffany",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "10/1/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "10/1/2025"
+    },
     "usaArchery": null,
     "email": "send2tiff@gmail.com",
     "phone": null,
@@ -904,8 +943,10 @@
     "firstName": "Kenneth",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "kenneth_lambert@att.net",
     "phone": null,
@@ -916,8 +957,10 @@
     "firstName": "Kenneth",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "kenneth_lambert@att.net",
     "phone": null,
@@ -928,9 +971,10 @@
     "firstName": "Paul",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
-      "rso": "9/30/2024",
-      "rifleInstructor": "9/30/2024",
+      "rso": true,
+      "rifleInstructor": true,
       "shotgunInstructor": false,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
@@ -938,8 +982,10 @@
       "memberExpiry": null,
       "instructorExpiry": "9/30/2024"
     },
-    "cubArcheryRangemasterCs31": "1/16/2024",
-    "cubBbGunRangemasterCs32": "1/16/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": "1/16/2024",
+      "bbGunRangemasterCs32": "1/16/2024"
+    },
     "usaArchery": null,
     "email": "plannus@yahoo.com",
     "phone": null,
@@ -950,8 +996,10 @@
     "firstName": "Caroline",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/6/2024",
-    "cubBbGunRangemasterCs32": "10/1/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/6/2024",
+      "bbGunRangemasterCs32": "10/1/2025"
+    },
     "usaArchery": null,
     "email": "ticaro@gmail.com",
     "phone": null,
@@ -962,8 +1010,9 @@
     "firstName": "Andrew",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
-      "rso": "4/30/2024",
+      "rso": true,
       "rifleInstructor": false,
       "shotgunInstructor": false,
       "pistolInstructor": false,
@@ -972,8 +1021,7 @@
       "memberExpiry": null,
       "instructorExpiry": "4/30/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "leeandrew@troop941.org",
     "phone": null,
@@ -984,9 +1032,10 @@
     "firstName": "Brandon",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
       "rso": false,
-      "rifleInstructor": "11/30/2025",
+      "rifleInstructor": true,
       "shotgunInstructor": false,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
@@ -994,8 +1043,10 @@
       "memberExpiry": null,
       "instructorExpiry": "11/30/2025"
     },
-    "cubArcheryRangemasterCs31": "3/6/2024",
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/6/2024",
+      "bbGunRangemasterCs32": null
+    },
     "usaArchery": null,
     "email": "yagamagabuha@yahoo.com",
     "phone": null,
@@ -1006,8 +1057,10 @@
     "firstName": "Eric",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/6/2024",
-    "cubBbGunRangemasterCs32": "3/6/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/6/2024",
+      "bbGunRangemasterCs32": "3/6/2024"
+    },
     "usaArchery": null,
     "email": "elegrand@gmail.com",
     "phone": null,
@@ -1018,12 +1071,10 @@
     "firstName": "Lillian",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": "916.595.5577",
     "email": "Lillianleongdo@gmail.com",
-    "phone": null,
+    "phone": "916.595.5577",
     "phoneAlternate": "Registered female volunteer"
   },
   {
@@ -1031,9 +1082,10 @@
     "firstName": "Randy",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 206141564,
       "chiefRso": false,
       "rso": false,
-      "rifleInstructor": "6/30/2025",
+      "rifleInstructor": true,
       "shotgunInstructor": false,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
@@ -1041,10 +1093,8 @@
       "memberExpiry": null,
       "instructorExpiry": "6/30/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 206141564,
     "email": "ranlinsch@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -1054,8 +1104,10 @@
     "firstName": "Joanne",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/17/2026",
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/17/2026",
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "lucero.joanne@gmail.com",
     "phone": null,
@@ -1066,8 +1118,10 @@
     "firstName": "Abdullah",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "maghazil.scouting@gmail.com",
     "phone": null,
@@ -1078,18 +1132,18 @@
     "firstName": "Chris",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
-      "rso": "6/30/2025",
-      "rifleInstructor": "6/30/2025",
+      "rso": true,
+      "rifleInstructor": true,
       "shotgunInstructor": false,
-      "pistolInstructor": "6/30/2025",
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "6/30/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "bsa@marsh.ai",
     "phone": null,
@@ -1100,8 +1154,10 @@
     "firstName": "Gagan",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "gmasaun@guidewire.com",
     "phone": null,
@@ -1112,8 +1168,10 @@
     "firstName": "Bryan",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "1/16/2024",
-    "cubBbGunRangemasterCs32": "1/16/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": "1/16/2024",
+      "bbGunRangemasterCs32": "1/16/2024"
+    },
     "usaArchery": null,
     "email": "bryan.mcdonald@gmail.com",
     "phone": null,
@@ -1124,8 +1182,10 @@
     "firstName": "Jack",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/6/2024",
-    "cubBbGunRangemasterCs32": "3/6/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/6/2024",
+      "bbGunRangemasterCs32": "3/6/2024"
+    },
     "usaArchery": null,
     "email": "ofthewestmeadow@gmail.com",
     "phone": null,
@@ -1136,8 +1196,10 @@
     "firstName": "Michelle",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/17/2026",
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/17/2026",
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "micbranton@gmail.com",
     "phone": null,
@@ -1148,8 +1210,10 @@
     "firstName": "Deborah",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "4-6-324",
-    "cubBbGunRangemasterCs32": "4/16/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": "4/16/2024",
+      "bbGunRangemasterCs32": "4/16/2024"
+    },
     "usaArchery": null,
     "email": "debmillersf@gmail.com",
     "phone": null,
@@ -1160,8 +1224,7 @@
     "firstName": "Andrew",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "akmoon@gmail.com",
     "phone": null,
@@ -1172,8 +1235,10 @@
     "firstName": "Darcy",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/6/2024",
-    "cubBbGunRangemasterCs32": "3/6/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/6/2024",
+      "bbGunRangemasterCs32": "3/6/2024"
+    },
     "usaArchery": null,
     "email": "dbrusso4@msn.com",
     "phone": null,
@@ -1184,8 +1249,10 @@
     "firstName": "Mallikarjuna",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "malliknamburi@gmail.com",
     "phone": null,
@@ -1196,8 +1263,10 @@
     "firstName": "Syed",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/17/2026",
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/17/2026",
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "nawabkamran@gmail.com",
     "phone": null,
@@ -1208,8 +1277,10 @@
     "firstName": "Maria",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "Maria.Obledo@scouting.org",
     "phone": null,
@@ -1220,8 +1291,10 @@
     "firstName": "Martin",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "10/1/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "10/1/2025"
+    },
     "usaArchery": null,
     "email": "modo1997@hotmail.co.uk",
     "phone": "415.200.7325",
@@ -1232,8 +1305,10 @@
     "firstName": "Louise",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/17/2026",
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/17/2026",
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "Babyollano@gmail.com",
     "phone": null,
@@ -1244,8 +1319,10 @@
     "firstName": "Chris",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/17/2026",
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "Fabtoys@sbcglobal.net",
     "phone": null,
@@ -1256,8 +1333,10 @@
     "firstName": "Jagandeep",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "10/1/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "10/1/2025"
+    },
     "usaArchery": null,
     "email": "jaganpadam@gmail.com",
     "phone": "702.677.4416",
@@ -1268,8 +1347,10 @@
     "firstName": "Alyssa",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "alyssa.padia@scouting.org",
     "phone": null,
@@ -1280,8 +1361,10 @@
     "firstName": "Sandy",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "logs.sandy@yahoo.com",
     "phone": null,
@@ -1292,8 +1375,10 @@
     "firstName": "Alpesh",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "alpeshparmar@yahoo.com",
     "phone": null,
@@ -1304,8 +1389,7 @@
     "firstName": "Mohan",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "mohanpattanaik@yahoo.com",
     "phone": null,
@@ -1316,8 +1400,10 @@
     "firstName": "Justin",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "4/22/2025",
-    "cubBbGunRangemasterCs32": "4/22/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "4/22/2025",
+      "bbGunRangemasterCs32": "4/22/2025"
+    },
     "usaArchery": null,
     "email": "motorguts@gmail.com",
     "phone": null,
@@ -1328,9 +1414,10 @@
     "firstName": "Randy",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
-      "rso": "3/31/2025",
-      "rifleInstructor": "3/31/2025",
+      "rso": true,
+      "rifleInstructor": true,
       "shotgunInstructor": false,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
@@ -1338,8 +1425,7 @@
       "memberExpiry": null,
       "instructorExpiry": "3/31/2025"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "randypope.ca@gmail.com",
     "phone": null,
@@ -1350,10 +1436,15 @@
     "firstName": "Sean",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "10/1/2025",
-    "usaArcheryInstructor": "4/26/2027",
-    "usaArcheryInstructorLevel": 2,
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "10/1/2025"
+    },
+    "usaArchery": {
+      "instructor": true,
+      "expiry": "4/26/2027",
+      "level": 2
+    },
     "email": "slpyka@gmail.com",
     "phone": "925.207.4335",
     "phoneAlternate": "925-207-4335"
@@ -1363,8 +1454,10 @@
     "firstName": "Nair",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "rajendran_nair@yahoo.com",
     "phone": null,
@@ -1375,8 +1468,10 @@
     "firstName": "Ronald",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "ronald.rather@scouting.org",
     "phone": null,
@@ -1387,8 +1482,10 @@
     "firstName": "Charles",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "craynor03@gmail.com",
     "phone": null,
@@ -1399,8 +1496,10 @@
     "firstName": "Kevin",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/6/2024",
-    "cubBbGunRangemasterCs32": "3/6/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/6/2024",
+      "bbGunRangemasterCs32": "3/6/2024"
+    },
     "usaArchery": null,
     "email": "kevinbrianreece@gmail.com",
     "phone": null,
@@ -1411,20 +1510,23 @@
     "firstName": "Glenn",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
-      "rso": "10/31/2023",
-      "rifleInstructor": "10/31/2023",
-      "shotgunInstructor": "10/31/2023",
+      "rso": true,
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "10/31/2023"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
-    "usaArcheryInstructor": "5/3/2024",
-    "usaArcheryInstructorLevel": 2,
+    "cubScouts": null,
+    "usaArchery": {
+      "instructor": true,
+      "expiry": "5/3/2024",
+      "level": 2
+    },
     "email": "glennjo2@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -1434,8 +1536,10 @@
     "firstName": "Jason",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "ryer64@gmail.com",
     "phone": null,
@@ -1446,8 +1550,10 @@
     "firstName": "Devin",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "dasevilla@gmail.com",
     "phone": null,
@@ -1458,8 +1564,10 @@
     "firstName": "Riyaz",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/17/2026",
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/17/2026",
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "eriyaz@gmail.com",
     "phone": null,
@@ -1470,20 +1578,19 @@
     "firstName": "Matt",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 39318718,
       "chiefRso": false,
-      "rso": "4/30/2024",
+      "rso": true,
       "rifleInstructor": false,
-      "shotgunInstructor": "4/30/2024",
+      "shotgunInstructor": true,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "4/30/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 39318718,
     "email": "mattshargel@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -1493,8 +1600,10 @@
     "firstName": "Jensen",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "living4lif@aol.com",
     "phone": null,
@@ -1505,8 +1614,10 @@
     "firstName": "Andrew",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "gtsdrummer@gmail.com",
     "phone": null,
@@ -1517,8 +1628,7 @@
     "firstName": "Dave",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "dtrdave@live.com",
     "phone": "dtrdave@live.com",
@@ -1529,9 +1639,10 @@
     "firstName": "Jeff",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 65499586,
       "chiefRso": false,
-      "rso": "6/30/2023",
-      "rifleInstructor": "6/30/2023",
+      "rso": true,
+      "rifleInstructor": true,
       "shotgunInstructor": false,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
@@ -1539,10 +1650,8 @@
       "memberExpiry": null,
       "instructorExpiry": "6/30/2023"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 65499586,
     "email": "secsmith308@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -1552,8 +1661,10 @@
     "firstName": "Amalraj",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/6/2024",
-    "cubBbGunRangemasterCs32": "3/6/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/6/2024",
+      "bbGunRangemasterCs32": "3/6/2024"
+    },
     "usaArchery": null,
     "email": "amalrajsomarajan@gmail.com",
     "phone": null,
@@ -1564,10 +1675,12 @@
     "firstName": "Michelle",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
-    "usaArcheryInstructor": "11/10/2024",
-    "usaArcheryInstructorLevel": 1,
+    "cubScouts": null,
+    "usaArchery": {
+      "instructor": true,
+      "expiry": "11/10/2024",
+      "level": 1
+    },
     "email": "mstieler@gmail.com",
     "phone": null,
     "phoneAlternate": null
@@ -1577,8 +1690,10 @@
     "firstName": "Scott",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/17/2026",
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/17/2026",
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "andysullivan333@gmail.com",
     "phone": null,
@@ -1589,8 +1704,10 @@
     "firstName": "Scott",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/17/2026",
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/17/2026",
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "andysullivan333@gmail.com",
     "phone": null,
@@ -1601,20 +1718,19 @@
     "firstName": "Paul",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 43088259,
       "chiefRso": false,
       "rso": false,
-      "rifleInstructor": "10/31/2024",
-      "shotgunInstructor": "10/31/2024",
-      "pistolInstructor": "10/31/2024",
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": "Life",
       "instructorExpiry": "10/31/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 43088259,
     "email": "Pswiatko@yahoo.com",
     "phone": null,
     "phoneAlternate": null
@@ -1624,9 +1740,10 @@
     "firstName": "Steve",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
-      "rso": "3/31/2025",
-      "rifleInstructor": "3/31/2025",
+      "rso": true,
+      "rifleInstructor": true,
       "shotgunInstructor": false,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
@@ -1634,8 +1751,10 @@
       "memberExpiry": null,
       "instructorExpiry": "3/31/2025"
     },
-    "cubArcheryRangemasterCs31": "1/21/2025",
-    "cubBbGunRangemasterCs32": "1/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "1/21/2025",
+      "bbGunRangemasterCs32": "1/21/2025"
+    },
     "usaArchery": null,
     "email": "steve.thomas@ucprofit.com",
     "phone": null,
@@ -1646,8 +1765,7 @@
     "firstName": "Tim",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "tim@cocofirearmtraining.com",
     "phone": null,
@@ -1658,8 +1776,10 @@
     "firstName": "Razikh",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/17/2026",
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/17/2026",
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "razikh@gmail.com",
     "phone": null,
@@ -1670,8 +1790,10 @@
     "firstName": "Anadi",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "anadi.upadhyaya@gmail.com",
     "phone": null,
@@ -1682,8 +1804,10 @@
     "firstName": "Kimberly",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "Kimberly_voisin@hotmail.com",
     "phone": null,
@@ -1694,20 +1818,19 @@
     "firstName": "Doug",
     "meritBadgeCounselor": ["rifleInstructor"],
     "nra": {
-      "chiefRso": "3/31/2026",
+      "nraId": 233478116,
+      "chiefRso": true,
       "rso": false,
-      "rifleInstructor": "3/31/2026",
+      "rifleInstructor": true,
       "shotgunInstructor": false,
-      "pistolInstructor": "3/31/2026",
+      "pistolInstructor": true,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "3/31/2026"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 233478116,
     "email": "dwald@sonic.net",
     "phone": null,
     "phoneAlternate": null
@@ -1717,20 +1840,19 @@
     "firstName": "Alan",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 166801290,
       "chiefRso": false,
-      "rso": "7/31/2024",
-      "rifleInstructor": "7/31/2024",
-      "shotgunInstructor": "7/31/2024",
+      "rso": true,
+      "rifleInstructor": true,
+      "shotgunInstructor": true,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "7/31/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
-    "nraId": 166801290,
     "email": "testpilot57@comcast.net",
     "phone": null,
     "phoneAlternate": null
@@ -1740,8 +1862,10 @@
     "firstName": "Michael",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "5/21/2025",
-    "cubBbGunRangemasterCs32": "5/21/2025",
+    "cubScouts": {
+      "archeryRangemasterCs31": "5/21/2025",
+      "bbGunRangemasterCs32": "5/21/2025"
+    },
     "usaArchery": null,
     "email": "sergeantmike19@gmail.com",
     "phone": null,
@@ -1752,9 +1876,10 @@
     "firstName": "Larry",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraId": 237799628,
       "chiefRso": false,
-      "rso": "5/31/2026",
-      "rifleInstructor": "5/31/2026",
+      "rso": true,
+      "rifleInstructor": true,
       "shotgunInstructor": false,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
@@ -1762,10 +1887,11 @@
       "memberExpiry": null,
       "instructorExpiry": "5/31/2026"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": "5/31/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": null,
+      "bbGunRangemasterCs32": "5/31/2024"
+    },
     "usaArchery": null,
-    "nraId": 237799628,
     "email": "larry.woods8244@sbcglobal.net",
     "phone": null,
     "phoneAlternate": null
@@ -1775,8 +1901,10 @@
     "firstName": "Mike",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/6/2024",
-    "cubBbGunRangemasterCs32": "3/6/2024",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/6/2024",
+      "bbGunRangemasterCs32": "3/6/2024"
+    },
     "usaArchery": null,
     "email": "mikeyorg@gmail.com",
     "phone": null,
@@ -1787,8 +1915,10 @@
     "firstName": "Charlie",
     "meritBadgeCounselor": [],
     "nra": null,
-    "cubArcheryRangemasterCs31": "3/17/2026",
-    "cubBbGunRangemasterCs32": "3/17/2026",
+    "cubScouts": {
+      "archeryRangemasterCs31": "3/17/2026",
+      "bbGunRangemasterCs32": "3/17/2026"
+    },
     "usaArchery": null,
     "email": "charlie.yu@gmail.com",
     "phone": null,
@@ -1799,18 +1929,18 @@
     "firstName": "Alan",
     "meritBadgeCounselor": [],
     "nra": {
+      "nraid": null,
       "chiefRso": false,
-      "rso": "12/31/2024",
+      "rso": true,
       "rifleInstructor": false,
-      "shotgunInstructor": "12/31/2024",
+      "shotgunInstructor": true,
       "pistolInstructor": false,
       "muzzleLoaderInstructor": false,
       "nraTrainingCounselor": false,
       "memberExpiry": null,
       "instructorExpiry": "12/31/2024"
     },
-    "cubArcheryRangemasterCs31": null,
-    "cubBbGunRangemasterCs32": null,
+    "cubScouts": null,
     "usaArchery": null,
     "email": "alan@alanzee.com",
     "phone": null,
