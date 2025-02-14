@@ -13,4 +13,5 @@ document.addEventListener('DOMContentLoaded', async (event) => {
     'https://rangeready.targetsports.help/api/certifications'
   );
   const certificationsJson = await certificationsResponse.json();
+  console.log(certificationsJson);
 });

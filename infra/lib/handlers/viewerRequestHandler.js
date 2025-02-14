@@ -6,6 +6,7 @@
 function handler(event) {
   metadataRewriteHandler(event);
   volunteersRewriteHandler(event);
+  certificationsRewriteHandler(event);
   let requestOrResponse = authzHandler(event);
   return requestOrResponse;
 }
@@ -57,6 +58,21 @@ function volunteersRewriteHandler(event) {
   let regex = /volunteers\/?$/i;
 
   uri = uri.replace(regex, 'volunteers.json');
+  request.uri = uri;
+  return request;
+}
+
+////////////////////////////////////////////////////////////////////////
+//
+// Rewrites requests for /metadata to /metadata.json
+//
+////////////////////////////////////////////////////////////////////////
+function certificationsRewriteHandler(event) {
+  let request = event.request;
+  let uri = request.uri;
+  let regex = /certifications\/?$/i;
+
+  uri = uri.replace(regex, 'certifications.json');
   request.uri = uri;
   return request;
 }
